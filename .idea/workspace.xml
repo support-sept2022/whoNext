@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3d3dd49e-ec1f-4ee3-9411-f75fe7c927cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/controllers/userCardController.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/controllers/userCardController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/routes/userCardRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/routes/userCardRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/services/userFileService.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/services/userFileService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/studentComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/studentComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +27,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NH8Wkwuscw4TQ56OqOdfgOthbG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -66,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679309680457</updated>
       <workItem from="1679309681566" duration="13730000" />
-      <workItem from="1679388134232" duration="12230000" />
+      <workItem from="1679388134232" duration="18768000" />
     </task>
     <servers />
   </component>
