@@ -16,9 +16,10 @@ class UserController {
                 return res.status(500).send('Erreur lors de la lecture du fichier');
             }
 
-            res.json(data);
+            res.send(data);
         });
     }
+
 
 }
 

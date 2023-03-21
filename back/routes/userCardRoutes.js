@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
 
-const UserCardController = require('../controllers/userCardController');
+const UserController = require('../controllers/userCardController');
 
-const userCardController = new UserCardController();
+const userController = new UserController();
 
-router.get('/', userCardController.getUsers);
+router.get("/", userController.getUsers);
 
 module.exports = router;

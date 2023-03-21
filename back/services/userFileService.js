@@ -12,10 +12,10 @@ class UserFileService {
                 const lines = data.toString().split(/,|\n|\s+/);
                 const jsonData = lines.map((line, index) => {
                     return {
-                        student: line.trim()
+                        name: line.trim()
                     };
-                }).filter((line) => line.student !== "");
-                callback(null, jsonData);
+                }).filter((line) => line.name !== "");
+                callback(null, JSON.parse(JSON.stringify(jsonData)));
             } catch (err) {
                 callback(err);
             }
