@@ -9,26 +9,18 @@ export default function StudentComponent(props) {
     const [status, setStatus] = useState("idle");
 
     const [selectedName, setSelectedName] = useState(null);
+    const [previousName, setPreviousName] = useState(null);
     const [nextName, setNextName] = useState("Who's next?");
-    const [selectedNames, setSelectedNames] = useState([]);
-    const [allNamesSelected, setAllNamesSelected] = useState(false);
 
     const startTimer = () => {
         setStatus("running");
         if (!selectedName) {
-            const availableNames = data.filter((name) => !selectedNames.includes(name));
+            const availableNames = data.filter((name) => name !== previousName && name !== selectedName);
             if (availableNames.length > 0) {
                 const randomIndex = Math.floor(Math.random() * availableNames.length);
                 const selectedName = availableNames[randomIndex];
                 setSelectedName(selectedName);
-                setSelectedNames([...selectedNames, selectedName]);
                 setNextName(selectedName);
-                if (selectedNames.length === data.length - 1) {
-                    setAllNamesSelected(true);
-                }
-            } else {
-                setStatus("finished");
-                setNextName("Goodbye");
             }
         }
     };
@@ -36,6 +28,7 @@ export default function StudentComponent(props) {
     const handleTimerComplete = () => {
         setTimerDuration(1 * 60); // Remettre la durée à sa valeur initiale
         setStatus("idle"); // Remettre le statut à "idle" pour réafficher le bouton "Start"
+        setPreviousName(selectedName);
         setSelectedName(null);
         setNextName("Who's next?");
     };
@@ -60,7 +53,7 @@ export default function StudentComponent(props) {
                             onComplete={handleTimerComplete}
                         />
                     )}
-                    {(status === "idle" || status === "finished") && !allNamesSelected && (
+                    {(status === "idle" || status === "finished") && (
                         <button
                             className="btn btn-md btn-dark"
                             onClick={startTimer}
@@ -68,9 +61,6 @@ export default function StudentComponent(props) {
                         >
                             {selectedName ? "Next" : "Start"}
                         </button>
-                    )}
-                    {(status === "idle" || status === "finished") && allNamesSelected && (
-                        <p>Goodbye</p>
                     )}
                 </div>
             </div>
