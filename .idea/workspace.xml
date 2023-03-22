@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3d3dd49e-ec1f-4ee3-9411-f75fe7c927cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/data/student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/back/data/student.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/DateTimeDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/DateTimeDisplay.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/studentComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/studentComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,22 +36,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.12.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.15.3&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ludovic/DWWM_02/whosNext&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "18.12.1",
+    "javascript.nodejs.core.library.typings.version": "18.15.3",
+    "last_opened_file_path": "/home/ludovic/DWWM_02/whosNext",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/app/extra/webstorm/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/front/public" />
@@ -67,6 +70,7 @@
       <updated>1679309680457</updated>
       <workItem from="1679309681566" duration="13730000" />
       <workItem from="1679388134232" duration="19455000" />
+      <workItem from="1679473865055" duration="2408000" />
     </task>
     <servers />
   </component>
