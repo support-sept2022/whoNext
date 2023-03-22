@@ -40,7 +40,7 @@ export default function StudentComponent(props) {
                             )}
                             {status === "idle" && (
                                 <button
-                                    className="bg-black text-white w-50"
+                                    className="btn btn-md bg-black text-white"
                                     onClick={startTimer}
                                 >
                                     Start
