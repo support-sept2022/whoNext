@@ -7,8 +7,8 @@ const CountdownTimer = ({ durationInSeconds, onComplete }) => {
 
     return (
         <div className="show-counter d-flex">
-            <DateTimeDisplay value={minutes} type={"Mins"} isDanger={false} /> <p> : </p>
-            <DateTimeDisplay value={seconds} type={"Seconds"} isDanger={false} />
+            <DateTimeDisplay value={minutes} type={"Mins"} /> <p> : </p>
+            <DateTimeDisplay value={seconds} type={"Seconds"} />
         </div>
     );
 };

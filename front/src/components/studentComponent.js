@@ -62,7 +62,7 @@ export default function StudentComponent(props) {
                     )}
                     {(status === "idle" || status === "finished") && !allNamesSelected && (
                         <button
-                            className="btn btn-md bg-black text-white"
+                            className="btn btn-md btn-dark"
                             onClick={startTimer}
                             disabled={!data || data.length === 0 || status === "finished"}
                         >

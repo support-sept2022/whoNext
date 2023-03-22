@@ -7,6 +7,7 @@
     <list default="true" id="3d3dd49e-ec1f-4ee3-9411-f75fe7c927cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/data/student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/back/data/student.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/CountdownTimer.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/CountdownTimer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/DateTimeDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/DateTimeDisplay.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/studentComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/studentComponent.js" afterDir="false" />
     </list>
@@ -70,7 +71,7 @@
       <updated>1679309680457</updated>
       <workItem from="1679309681566" duration="13730000" />
       <workItem from="1679388134232" duration="19455000" />
-      <workItem from="1679473865055" duration="2408000" />
+      <workItem from="1679473865055" duration="3037000" />
     </task>
     <servers />
   </component>
